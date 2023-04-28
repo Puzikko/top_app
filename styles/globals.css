@@ -1,9 +1,10 @@
 :root {
 	--black: #3B434E;
 	--white: white;
-	--primary: #7653FC;	
+	--primary: #7653FC;
+	--primary-hover: #4c2ec7;
 	--red: #FC836D;
-	--green: #1DC37E;
+	--gray-light: #EBEBEB; --green: #1DC37E;
 	--green-light: #C8F8E4;
 	--font-family: 'Noto Sans', sans-serif;
 }
@@ -14,23 +15,19 @@
 		--background-start-rgb: 0, 0, 0;
 		--background-end-rgb: 0, 0, 0;
 		--primary-glow: radial-gradient(rgb(1 65 255 / 40%), rgb(1 65 255 / 0%));
-		--secondary-glow: linear-gradient(
-			to bottom right,
-			rgb(1 65 255 / 0%),
-			rgb(1 65 255 / 0%),
-			rgb(1 65 255 / 30%)
-		);
+		--secondary-glow: linear-gradient(to bottom right,
+				rgb(1 65 255 / 0%),
+				rgb(1 65 255 / 0%),
+				rgb(1 65 255 / 30%));
 		--tile-start-rgb: 2, 13, 46;
 		--tile-end-rgb: 2, 5, 19;
-		--tile-border: conic-gradient(
-			#FFFFFF80,
-			#FFFFFF40,
-			#FFFFFF30,
-			#FFFFFF20,
-			#FFFFFF10,
-			#FFFFFF10,
-			#FFFFFF80
-		);
+		--tile-border: conic-gradient(#FFFFFF80,
+				#FFFFFF40,
+				#FFFFFF30,
+				#FFFFFF20,
+				#FFFFFF10,
+				#FFFFFF10,
+				#FFFFFF80);
 		--callout-rgb: 20, 20, 20;
 		--callout-border-rgb: 108, 108, 108;
 		--card-rgb: 100, 100, 100;
