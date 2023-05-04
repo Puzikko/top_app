@@ -11,8 +11,8 @@ export default function Home(): JSX.Element {
       <Htag tag='h1'>H1 text</Htag>
       <Htag tag='h2'>H2 text</Htag>
       <Htag tag='h3'>H3 text</Htag>
-      <Button appearance='primary'>Button</Button>
-      <Button appearance='ghost'>Button</Button>
+      <Button appearance='primary' arrow='right'>Button</Button>
+      <Button appearance='ghost' arrow='right'>Button</Button>
     </>
   );
 }
