@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import { Button, Htag, P } from '@/components';
+import { Button, Htag, P, Tag } from '@/components';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,6 +14,11 @@ export default function Home(): JSX.Element {
       <P size='small'>Watsss up?</P>
       <P>Watsss up?</P>
       <P size='large'>Watsss up?</P>
+      <Tag>Ghost tag</Tag>
+      <Tag color='gray' size='medium'>Gray tag</Tag>
+      <Tag color='green'>Green tag</Tag>
+      <Tag color='red' size='medium'>Red tag</Tag>
+      <Tag color='primary'>Primary tag</Tag>
     </>
   );
 }

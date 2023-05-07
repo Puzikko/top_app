@@ -1,5 +1,5 @@
-import { PProps } from "./Paragraph.props"
-import styles from "./Paragraph.module.css";
+import { PProps } from "./P.props"
+import styles from "./P.module.css";
 import cn from "classnames";
 
 
@@ -8,7 +8,8 @@ export const P = ({ size = 'medium', className, children, ...props }: PProps): J
         [styles.small]: size == 'small',
         [styles.medium]: size == 'medium',
         [styles.large]: size == 'large'
-    })} {...props}>
+    })} {...props}
+    >
         {children}
     </p>
 }
