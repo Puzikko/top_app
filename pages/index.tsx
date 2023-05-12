@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home(): JSX.Element {
 
+  const [raiting, setRating] = useState<number>(4);
   const [counter, setCounter] = useState<number>(0);
 
   return (
@@ -25,7 +26,7 @@ export default function Home(): JSX.Element {
       <Tag color='green'>Green tag</Tag>
       <Tag color='red' size='medium'>Red tag</Tag>
       <Tag color='primary'>Primary tag</Tag>
-      <Rating isEditable={true} raiting={3} />
+      <Rating isEditable={true} raiting={raiting} setRating={setRating} />
     </>
   );
 }
