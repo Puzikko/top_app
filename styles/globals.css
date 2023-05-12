@@ -49,7 +49,7 @@ body {
 }
 
 body {
-	background: #E5E5E5;
+	background: var(--white);
 	color: var(--black);
 	font-family: Noto Sans, sans-serif;
 }
